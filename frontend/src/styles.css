@@ -1,0 +1,109 @@
+/* การตั้งค่าพื้นฐานสำหรับทั้งเว็บ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* ตัวพื้นหลังของทั้งหน้า */
+  body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* คอนเทนเนอร์ของฟอร์ม */
+  .form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* เพิ่มเงาให้ฟอร์ม */
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* ฟอร์ม */
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* หัวข้อฟอร์ม */
+  h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* กล่องฟอร์ม */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ป้ายช่องกรอกข้อมูล */
+  .form-group label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+  }
+  
+  /* ช่องกรอกข้อมูล */
+  .form-group input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+  }
+  
+  .form-group input:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+  }
+  
+  /* ปุ่มทุกปุ่ม */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* ขยายปุ่มเมื่อโฮเวอร์ */
+  }
+  
+  button:active {
+    background-color: #004085;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* ฟอร์มที่มีการแสดงผลแบบ Responsive */
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 20px;
+    }
+  
+    .booking-form {
+      gap: 15px;
+    }
+  }
+  

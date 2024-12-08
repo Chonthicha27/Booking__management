@@ -1,0 +1,36 @@
+/* BookingPage.css */
+.booking-container {
+    margin-top: 20px;
+  }
+  
+  .title {
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .subtitle {
+    color: #6c757d;
+  }
+  
+  .room-summary-title {
+    color: #007bff;
+  }
+  
+  .room-summary-card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  button {
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
+  
